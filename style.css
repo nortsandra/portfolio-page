@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  padding-bottom: 60px;
 }
 
 h1,
@@ -85,4 +86,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max) {
 }
