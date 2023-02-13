@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #448f20;
-  --secondary-color: rgba(132, 146, 118);
+  --branding-color: #5c6e49;
+  --secondary-color: rgb(140, 165, 128);
   --heading-font-family: "Yeseva One", cursive;
   --default-font-family: "Roboto", sans-serif;
 }
@@ -169,7 +169,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
+  color: white;
   background-color: var(--secondary-color);
   padding: 10px 14px;
   font-size: 18px;
