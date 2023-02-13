@@ -110,6 +110,11 @@ p {
   max-height: 40px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 nav {
   padding: 20px 0;
 }
