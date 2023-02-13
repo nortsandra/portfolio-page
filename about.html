@@ -5,88 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous" />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/style.css" />
-    <title>About me - Oleksandra Kolomiiets</title>
-    <meta
-      name="description"
-      content="About Oleksanda Kolomiiets, a front-end developer based in Ukraine" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Yeseva+One&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/320375c67c.js"
+      crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="icon" href="images/profile.png" />
+    <meta name="description" content="Find out more about Oleksandra." />
+    <title>About Me - Oleksandra</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/" title="Homepage"
-          >Oleksanda Kolomiiets</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/" tilte="Homepage"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="/about.html"
-                title="About Oleksanda Kolomiiets"
-                >About me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/about.html#contact"
-                title="Contact Oleksanda Kolomiiets"
-                >Contact me</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Poltava, Ukraine</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <h4 class="logo d-none d-md-block" title="Homepage">Oleksandra</h4>
+          <h4 class="logo d-block d-md-none" title="Homepage">K.</h4>
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Oleksandra"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Oleksandra' Work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Inês"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-lg-6 mb-4">
+          <div class="content">
+            <h1 class="mb-5">Nice to meet you!</h1>
+            <h2 class="mb-4">Front-End Developer</h2>
+            <p class="mb-4 text-muted">
+              My name is Oleksandra, and I'm a (almost) self-taught front-end
+              developer from Poltava, Ukraine.
+            </p>
+
+            <p class="mb-4 text-muted">
+              While working as an HR manager and digging more into the IT
+              industry, I discovered that I'm really interested in how
+              development works. The whole process of creating something great
+              while writing code and solving problems along the way made me
+              really curious so I tried learning more and found myself really
+              hooked on Javascript, especially React.js framework. Not only it's
+              intellectually stimulating but also it's something that I really
+              enjoy doing.
+            </p>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
           <img
-            src="img/weather.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Weather project" />
+            src="img/profile.jpg"
+            alt="Oleksandra Profile Image"
+            class="img-fluid rounded" />
         </div>
       </div>
-      <div id="contact" class="mt-5">
-        <h2 class="text-center">📮 Contact me</h2>
-        <a href="mailto:nortsandra@gmail.com" class="email-link">
-          nortsandra@gmail.com
-        </a>
-      </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:nortsandra@gmail.com"
+            class="email-link d-none d-sm-block d-md-none"
+            title="Email Oleksandra"
+            >nortsandra@gmail.com</a
+          >
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/oleksandra-kolomiiets-74272022b/"
+            target="_blank"
+            title="LinkedIn Profile">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/nortsandra"
+            target="_blank"
+            title="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p class="mt-5 mb-5 text-center text-muted">
+          This project was coded by
+          <a
+            href="https://www.linkedin.com/in/oleksandra-kolomiiets-74272022b/"
+            target="_blank"
+            >Oleksandra</a
+          >
+          and is
+          <a
+            href="https://github.com/nortsandra/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
