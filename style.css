@@ -214,13 +214,20 @@ footer .social-links a:hover {
     padding: 0;
   }
 
+  .work-inquiry {
+    color: white;
+  }
+
+  .let-work {
+    color: white;
+  }
+
   nav a {
     font-size: 14px;
   }
 
   footer h3 {
     font-size: 35px;
-    color: white;
   }
 
   footer .btn {
