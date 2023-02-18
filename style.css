@@ -247,3 +247,13 @@ footer .social-links a:hover {
     padding: 150px 60px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    max-height: fit-content;
+  }
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
